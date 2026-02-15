@@ -1,0 +1,101 @@
+/* Flash algorithm for STM32H7x_2048
+ *
+ * DAPLink Interface Firmware
+ * Copyright (c) 2009-2026 Arm Limited, All Rights Reserved
+ * SPDX-License-Identifier: Apache-2.0
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+// Generated from 'STM32H7x_2048.FLM' (STM32H7x_2048)
+// digest = a3ee4764dd6e75ea1fcce835d7400c64f757a29ead59173230573fdf0f8949ca, file size = 17100
+// algo version = 0x101, algo size = 996 (0x3e4)
+static const uint32_t STM32H7x_2048_flash_prog_blob[] = {
+    0xe7fdbe00,
+    0x8f4ff3bf, 0xb5104770, 0xf44f4603, 0x4ced7080, 0x48ed6020, 0xf0406800, 0x4ceb0007, 0x48eb6020,
+    0xbf006160, 0x690048e8, 0x0004f000, 0xd1f92800, 0x4ce548e7, 0x48e76060, 0x48e46060, 0x60204ce6,
+    0x48e5bf00, 0x68001f00, 0x0004f000, 0xd1f82800, 0x4ce148df, 0x60203c10, 0x4cdb48de, 0x0104f8c4,
+    0xbd102000, 0x48d84601, 0xf04068c0, 0x4ad60001, 0x48d960d0, 0x68003808, 0x0001f040, 0x010cf8c2,
+    0x47702000, 0x49d048d1, 0xbf006148, 0x690048ce, 0x0004f000, 0xd1f92800, 0x49cf48cc, 0xbf006008,
+    0x1f0048cd, 0xf0006800, 0x28000004, 0xbf00d1f8, 0x690048c5, 0x0004f000, 0xd1f92800, 0x68c048c2,
+    0x0030f020, 0x60c849c0, 0x68c04608, 0x0008f040, 0x460860c8, 0xf04068c0, 0x60c80080, 0x48babf00,
+    0xf0006900, 0x28000004, 0x48b7d1f9, 0xf02068c0, 0x49b50008, 0xbf0060c8, 0x1f0048b7, 0xf0006800,
+    0x28000004, 0x48b4d1f8, 0x68003808, 0x0030f020, 0xf8c149ad, 0x4608010c, 0x010cf8d0, 0x0008f040,
+    0x010cf8c1, 0xf8d04608, 0xf040010c, 0xf8c10080, 0xbf00010c, 0x1f0048a8, 0xf0006800, 0x28000004,
+    0x48a5d1f8, 0x68003808, 0x0008f020, 0xf8c1499e, 0x2000010c, 0xb5104770, 0xf3c14601, 0xf1b14243,
+    0xd3376f00, 0x6f01f1b1, 0x4897d234, 0x4b976940, 0x4b954318, 0xbf006158, 0x69004893, 0x0004f000,
+    0xd1f92800, 0x68c04890, 0x7330f647, 0x4b8e4398, 0x461860d8, 0x230468c0, 0x2302ea43, 0x4b8a4318,
+    0x461860d8, 0xf04068c0, 0x60d80080, 0x4886bf00, 0xf0006900, 0x28000004, 0x4883d1f9, 0xf02068c0,
+    0x4b810004, 0x461860d8, 0xf0006900, 0xb3e80001, 0xbd102001, 0x68004880, 0x43184b7c, 0xf8c34b7a,
+    0xbf000114, 0x1f00487c, 0xf0006800, 0x28000004, 0x4879d1f8, 0x68003808, 0x7330f647, 0x4b724398,
+    0x010cf8c3, 0x38084874, 0xf1a26800, 0x24040308, 0x2303ea44, 0x4b6c4318, 0x010cf8c3, 0xf8d04618,
+    0xf040010c, 0xf8c30080, 0xbf00010c, 0x1f00486a, 0xf0006800, 0x28000004, 0x4867d1f8, 0x68003808,
+    0x0004f020, 0xf8c34b60, 0xe000010c, 0x4862e007, 0x68001f00, 0x0001f000, 0x2001b108, 0x2000e7b9,
+    0xb5f0e7b7, 0x460c4603, 0x46194616, 0x22004635, 0x6f00f1b3, 0xf1b3d30d, 0xd20a6f01, 0x4852bf00,
+    0xf0006900, 0x28000004, 0x4850d1f9, 0x61784f4e, 0xbf00e00a, 0x1f004850, 0xf0006800, 0x28000004,
+    0x484ad1f8, 0x60384f4c, 0xf1b3e087, 0xd30c6f00, 0x6f01f1b3, 0x4844d209, 0xf64768c0, 0x43b87730,
+    0x60f84f41, 0x60f82002, 0x4843e00c, 0x68003808, 0x7730f647, 0x4f3c43b8, 0x010cf8c7, 0x4f3e2002,
+    0x60383f08, 0xd30c2c20, 0xe0062200, 0x6868682f, 0x6048600f, 0x31083508, 0x2a041c52, 0x3c20dbf6,
+    0x2200e013, 0xf815e004, 0xf8010b01, 0x1c520b01, 0xd3f842a2, 0xe0032200, 0xf80120ff, 0x1c520b01,
+    0x0020f1c4, 0xd8f74290, 0xf7ff2400, 0xf1b3fe69, 0xd30a6f00, 0x6f01f1b3, 0xbf00d207, 0x69004822,
+    0x0004f000, 0xd1f92800, 0xbf00e007, 0x1f004822, 0xf0006800, 0x28000004, 0x481bd1f8, 0x20006900,
+    0xf1b3b1b0, 0xd3096f00, 0x6f01f1b3, 0x4816d206, 0xf02068c0, 0x4f140002, 0xe00760f8, 0x38084816,
+    0xf0206800, 0x4f100002, 0x010cf8c7, 0xbdf02001, 0x6f00f1b3, 0xf1b3d309, 0xd2066f01, 0x68c0480a,
+    0x0002f020, 0x60f84f08, 0x480be007, 0x68003808, 0x0002f020, 0xf8c74f04, 0x2c00010c, 0xaf75f47f,
+    0xe7e42000, 0x58024594, 0x52002000, 0x0fef0000, 0x45670123, 0xcdef89ab, 0x52002114, 0x00000000
+};
+
+// Start address of flash
+static const uint32_t flash_start = 0x08000000;
+// Size of flash
+static const uint32_t flash_size = 0x00200000;
+
+/**
+* List of start and size for each size of flash sector - even indexes are start, odd are size
+* The size will apply to all sectors between the listed address and the next address
+* in the list.
+* The last pair in the list will have sectors starting at that address and ending
+* at address flash_start + flash_size.
+*/
+static const sector_info_t sectors_info[] = {
+    {0x08000000, 0x00020000},
+};
+
+static const program_target_t flash = {
+    0x2000000b, // Init
+    0x20000069, // UnInit
+    0x20000089, // EraseChip
+    0x2000015b, // EraseSector
+    0x20000267, // ProgramPage
+    0x00000000, // Verify
+
+    // BKPT : start of blob + 1
+    // RSB  : blob start + header + rw data offset
+    // RSP  : stack pointer
+    {
+        0x20000001,
+        0x200003e0,
+        0x20008400
+    },
+
+    // mem buffer location
+    0x20008400,
+    // location to write prog_blob in target RAM
+    0x20000000,
+    // prog_blob size
+    sizeof(STM32H7x_2048_flash_prog_blob),
+    // address of prog_blob
+    STM32H7x_2048_flash_prog_blob,
+    // ram_to_flash_bytes_to_be_written
+    0x00000400
+};
