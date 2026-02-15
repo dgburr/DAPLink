@@ -27,6 +27,8 @@ const board_info_t g_board_info = {
     .board_id = "0000",
     .family_id = kStub_HWReset_FamilyID,
     .target_cfg = &target_device,
+    .daplink_drive_name = "NOD_H743ZI2",
+    .daplink_target_url = "https://support.swiftnav.com",
     .board_vendor = "STMicroelectronics",
     .board_name = "NUCLEO-H743ZI",
 };
