@@ -11,7 +11,8 @@ common:
         - __packed=__packed          # Prevent redefinition of __packed with ARMCC
         - DAPLINK_NO_ASSERT_FILENAMES
         - OS_CLOCK=72000000
-        - USB_PROD_STR="STORK gen2"
+        - USB_MAN_STR="Swift Navigation"
+        - USB_PROD_STR="STORK gen2 CMSIS-DAP"
     includes:
         - source/hic_hal/stm32/stm32f103xb
         - source/hic_hal/stm32/stm32f103xb/cmsis
