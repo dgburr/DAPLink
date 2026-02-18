@@ -24,8 +24,9 @@
 
 const board_info_t g_board_info = {
     .info_version = kBoardInfoVersion,
-    .board_id = "0000",
     .family_id = kStub_HWReset_FamilyID,
+    .board_id = "0000",
+    .flags = kEnablePageErase,
     .target_cfg = &target_device,
     .daplink_drive_name = "NOD_H743ZI2",
     .daplink_target_url = "https://support.swiftnav.com",
